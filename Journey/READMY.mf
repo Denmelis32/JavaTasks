@@ -1,11 +1,26 @@
-<NotepadPlus>
-    <Session activeView="0">
-        <mainView activeIndex="5">
-            <File firstVisibleLine="36" xOffset="0" scrollWidth="688" startPos="2214" endPos="2214" selMode="0" lang="XML" encoding="-1" filename="C:\Users\Asus1\Desktop\Projects\JavaTasks\saper\build.xml" backupFilePath="" originalFileLastModifTimestamp="1562580738" />
-            <File firstVisibleLine="23" xOffset="0" scrollWidth="1312" startPos="1569" endPos="1554" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Asus1\Desktop\Projects\JavaTasks\saper\JavaCopy.java" backupFilePath="" originalFileLastModifTimestamp="1562931994" />
-            <File firstVisibleLine="42" xOffset="0" scrollWidth="688" startPos="0" endPos="0" selMode="0" lang="XML" encoding="-1" filename="C:\Users\Asus1\Desktop\Projects\JavaTasks\finka\build.xml" backupFilePath="" originalFileLastModifTimestamp="1563199617" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="656" startPos="1622" endPos="1622" selMode="0" lang="&#x041E;&#x0431;&#x044B;&#x0447;&#x043D;&#x044B;&#x0439; &#x0422;&#x0435;&#x043A;&#x0441;&#x0442;" encoding="-1" filename="C:\Users\Asus1\Desktop\Projects\JavaTasks\Journey\READMY.txt" backupFilePath="" originalFileLastModifTimestamp="1563884402" />
-        </mainView>
-        <subView activeIndex="0" />
-    </Session>
-</NotepadPlus>
+Группа студентов является членами клуба, который ежегодно путешествует 
+в различные места. Предыдущие места их поездок включают Индианаполис, 
+Финикс, Нашвилл, Филадельфию, Сан-Хосе и Атланту. Этой весной они планируют 
+съездить в Айндховен. 
+Группа заранее договорилась делить расходы поровну, но неудобно делить рас- 
+ходы по мере их поступления. Поэтому каждый студент в отдельности платит за 
+определенные вещи, такие, как еда, проживание, поездки на такси и билеты на само- 
+лет. После путешествия расходы каждого студента суммируются, и происходит 
+обмен деньгами так, что итоговая стоимость для всех оказывается равной с точно- 
+стью до одного цента. В прошлом этот обмен деньгами был скучным и долгим. 
+Ваша задача состоит в том, чтобы, основываясь на списке расходов, определить ми- 
+нимальную сумму денег, которая должна поменять хозяина, для того чтобы уравнять 
+(с точностью до цента) расходы всех студентов. 
+Входные данные 
+Стандартные входные данные будут содержать данные для нескольких путе- 
+шествий. Каждое путешествие состоит из строки, содержащей положительное 
+•целое число п, обозначающее число путешествовавших студентов. Далее следуют 
+п строк входных данных, каждая из которых содержит расходы одного студента 
+в долларах и центах. Студентов не более 1000, и ни один из них не истратил более 
+$10000.00. Единственная строка, содержащая 0, следует за информацией о по- 
+следнем путешествии. 
+Выходные данные 
+Для каждого путешествия выведите строку, содержащую минимальную сумму 
+денег, в долларах и центах, которая должна быть передана, чтобы уравнять траты 
+студентов. 
+s
