@@ -24,7 +24,14 @@ public class Journey {
                 System.out.println(" Сколько людей с вами отправится? " + "\n");
                 if (((aNumberTraveler = sc.nextInt()) > 0)
                         && ((aNumberTraveler = sc.nextInt()) < 1000)) {
-                    int aCosts[] = new int[aNumberTraveler];
+                      
+                          && ((aNumberTraveler = sc.nextInt()) < 1000)) {
+                      int aCosts[] = new int [aNumberTraveler];
+                      // Откуда брать эту цену???Как узнать сколько они потратили ? 
+                      //Я могу через сканнер сделать,чтобы для каждого писалось,сколько он потратил
+                      //но как это потом уравнять ?
+                      for(int i = 0 ;i<aCosts.length;i++)
+                    aCosts[i]=sc.nextInt();
                 }
             } else {
                 break;
