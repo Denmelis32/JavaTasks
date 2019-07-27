@@ -15,27 +15,32 @@ public class Journey {
 
     public static void main(String[] args) {
         int aNumberTraveler;
+        int a = 0;
+        double price;
         String aTravels;
         Scanner sc;
         sc = new Scanner(System.in);
-        System.out.println(" Куда хотите отправится?" + "\n");
-        for (;;) {
-            if (((aTravels = sc.nextLine()) != null) ) {
-                System.out.println(" Сколько людей с вами отправится? " + "\n");
-                if (((aNumberTraveler = sc.nextInt()) > 0)
-                        && ((aNumberTraveler = sc.nextInt()) < 1000)) {
-                      
-                          && ((aNumberTraveler = sc.nextInt()) < 1000)) {
-                      int aCosts[] = new int [aNumberTraveler];
-                      // Откуда брать эту цену???Как узнать сколько они потратили ? 
-                      //Я могу через сканнер сделать,чтобы для каждого писалось,сколько он потратил
-                      //но как это потом уравнять ?
-                      for(int i = 0 ;i<aCosts.length;i++)
-                    aCosts[i]=sc.nextInt();
-                }
-            } else {
-                break;
+        aTravels = sc.nextLine();
+      while (aTravels != null) {
+            System.out.println(" Куда хотите отправиться?");
+             aTravels = sc.nextLine();
+            a++;
+
+            System.out.println(" Сколько людей с вами отправиться? ");
+
+            if (((aNumberTraveler = sc.nextInt()) > 0)
+                    && (aNumberTraveler < 1000)) {
+
             }
         }
+      
+        System.out.println(a);
+//        }
+//        System.out.println(" На какой бюджет рассчитываете? ");
+//        if ((price = sc.nextDouble()) > 0) {
+////                  int aCosts[] = new int[aNumberTraveler];
+//                     for (int i = 0; i < aCosts.length; i++) {
+//                      aCosts[i] = sc.nextInt();
     }
+
 }
